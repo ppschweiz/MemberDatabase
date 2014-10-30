@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7A3E83A-5B08-4D85-B933-00A30189AF97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pirate.Ldap</RootNamespace>
+    <AssemblyName>Pirate.Ldap</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Devart.Data">
+      <HintPath>..\Resources\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.PostgreSql">
+      <HintPath>..\Resources\Devart.Data.PostgreSql.dll</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Association.cs" />
+    <Compile Include="Attributes.cs" />
+    <Compile Include="CompareList.cs" />
+    <Compile Include="ComputedField.cs" />
+    <Compile Include="Config\Config.cs" />
+    <Compile Include="Config\IConfig.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="Data\AuthenticationLevel.cs" />
+    <Compile Include="Data\CertificateEntry.cs" />
+    <Compile Include="Data\SearchTemplate.cs" />
+    <Compile Include="Data\DefaultFieldAttribute.cs" />
+    <Compile Include="Data\TextItem.cs" />
+    <Compile Include="Data\EmailAddressChange.cs" />
+    <Compile Include="Data\IDataAccess.cs" />
+    <Compile Include="Data\PostgresSqlDataAccess.cs" />
+    <Compile Include="Data\Request.cs" />
+    <Compile Include="Data\RequestAction.cs" />
+    <Compile Include="Data\RequestParameter.cs" />
+    <Compile Include="Data\TextField.cs" />
+    <Compile Include="Data\TextObject.cs" />
+    <Compile Include="Data\Texts.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="LdapComparison.cs" />
+    <Compile Include="LdapContext.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Right.cs" />
+    <Compile Include="EvaulateField.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="EmployeeTypeExtensions.cs" />
+    <Compile Include="GenderExtensions.cs" />
+    <Compile Include="LdapCache.cs" />
+    <Compile Include="LdapEnumListField.cs" />
+    <Compile Include="LdapEnumField.cs" />
+    <Compile Include="Difference.cs" />
+    <Compile Include="FieldValue.cs" />
+    <Compile Include="LdapDateTimeListField.cs" />
+    <Compile Include="LdapIntListField.cs" />
+    <Compile Include="LdapResources.Designer.cs">
+      <DependentUpon>LdapResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LdapStringListField.cs" />
+    <Compile Include="LdapImageField.cs" />
+    <Compile Include="LdapByteArrayField.cs" />
+    <Compile Include="LdapSbyteArrayField.cs" />
+    <Compile Include="LdapIntField.cs" />
+    <Compile Include="LdapDataTimeField.cs" />
+    <Compile Include="Countries.cs" />
+    <Compile Include="DisplayValue.cs" />
+    <Compile Include="DN.cs" />
+    <Compile Include="EmployeeType.cs" />
+    <Compile Include="Gender.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="LdapField.cs" />
+    <Compile Include="LdapStringField.cs" />
+    <Compile Include="PreferredNotificationMethodExtensions.cs" />
+    <Compile Include="LdapAndFilter.cs" />
+    <Compile Include="LdapAttributeBase.cs" />
+    <Compile Include="LdapAttributeFilter.cs" />
+    <Compile Include="LdapExtensions.cs" />
+    <Compile Include="LdapFilter.cs" />
+    <Compile Include="LdapNotFilter.cs" />
+    <Compile Include="LdapObject.cs" />
+    <Compile Include="LdapObjectFactory.cs" />
+    <Compile Include="LdapOrFilter.cs" />
+    <Compile Include="LdapResultCode.cs" />
+    <Compile Include="LdapScope.cs" />
+    <Compile Include="Names.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PreferredNotificationMethod.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="States.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Countries.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Novell.Directory.Ldap.dll" />
+    <Content Include="States.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LdapResources.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LdapResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LdapResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pirate.Util\Pirate.Util.csproj">
+      <Project>{9E99130B-296C-4F0B-A9E1-6E98FF416F10}</Project>
+      <Name>Pirate.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\create.psql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

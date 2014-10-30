@@ -1,0 +1,26 @@
+﻿Zurich        	        ZH
+Bern 	        	        BE
+Luzern 	      	        LU
+Uri 	        	        UR
+Schwyz 	      	        SZ
+Obwalden 	    	        OW
+Nidwalden 	  	        NW
+Glarus 	      	        GL
+Zug 	        	        ZG
+Fribourg 	    	        FR
+Solothurn 	  	        SO
+Basel-City 	  	        BS
+Basel-Country 	        BL
+Schaffhausen            SH
+Appenzell Ausserrhoden 	AR
+Appenzell Innerrhoden 	AI
+St. Gallen 	            SG
+Graubünden 	            GR
+Aargau 	                AG
+Thurgau 	              TG
+Ticino 	                TI
+Vaud 	                  VD
+Valais 	                VS
+Neuchâtel 	            NE
+Geneva 	                GE
+Jura 	                  JU

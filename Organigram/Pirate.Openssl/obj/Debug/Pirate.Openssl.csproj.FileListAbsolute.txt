@@ -1,0 +1,5 @@
+D:\Dev\spo\Organigram\Pirate.Openssl\bin\Debug\Pirate.Openssl.dll
+D:\Dev\spo\Organigram\Pirate.Openssl\bin\Debug\Pirate.Openssl.pdb
+D:\Dev\spo\Organigram\Pirate.Openssl\obj\Debug\Pirate.Openssl.dll
+D:\Dev\spo\Organigram\Pirate.Openssl\obj\Debug\Pirate.Openssl.pdb
+D:\Dev\spo\Organigram\Pirate.Openssl\obj\Debug\Pirate.Openssl.csprojResolveAssemblyReference.cache

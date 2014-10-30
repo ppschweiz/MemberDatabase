@@ -1,0 +1,5 @@
+D:\Dev\spo\Organigram\Pirate.Textile\bin\Debug\Pirate.Textile.dll
+D:\Dev\spo\Organigram\Pirate.Textile\bin\Debug\Pirate.Textile.pdb
+D:\Dev\spo\Organigram\Pirate.Textile\obj\Debug\Pirate.Textile.dll
+D:\Dev\spo\Organigram\Pirate.Textile\obj\Debug\Pirate.Textile.pdb
+D:\Dev\spo\Organigram\Pirate.Textile\obj\Debug\Pirate.Textile.csprojResolveAssemblyReference.cache

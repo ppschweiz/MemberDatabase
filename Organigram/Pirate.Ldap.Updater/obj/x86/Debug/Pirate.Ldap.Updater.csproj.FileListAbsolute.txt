@@ -1,0 +1,17 @@
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Countries.txt
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\States.txt
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Ldap.Updater.exe
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Ldap.Updater.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Novell.Directory.Ldap.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Ldap.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Util.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Devart.Data.PostgreSql.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Devart.Data.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Ldap.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\Pirate.Util.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\de-DE\Pirate.Ldap.resources.dll
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.csprojResolveAssemblyReference.cache
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.exe
+D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.pdb
+D:\Dev\MemberDatabase\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.exe
+D:\Dev\MemberDatabase\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.pdb

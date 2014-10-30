@@ -1,0 +1,5 @@
+D:\Dev\spo\Organigram\Pirate.Web\bin\Debug\Pirate.Web.dll
+D:\Dev\spo\Organigram\Pirate.Web\bin\Debug\Pirate.Web.pdb
+D:\Dev\spo\Organigram\Pirate.Web\obj\Debug\Pirate.Web.dll
+D:\Dev\spo\Organigram\Pirate.Web\obj\Debug\Pirate.Web.pdb
+D:\Dev\spo\Organigram\Pirate.Web\obj\Debug\Pirate.Web.csprojResolveAssemblyReference.cache

@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="AllMembers" xml:space="preserve">
+    <value>All members</value>
+  </data>
+  <data name="Anomaies" xml:space="preserve">
+    <value>Anomalies</value>
+  </data>
+  <data name="Attachement" xml:space="preserve">
+    <value>Attachement</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="CertificateAccept" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="CertificateAcceptInfo" xml:space="preserve">
+    <value>Find and accept; Code:</value>
+  </data>
+  <data name="CertificateAdmin" xml:space="preserve">
+    <value>Certificate Administration</value>
+  </data>
+  <data name="CertificateFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="CertificateRevoke" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="Commit" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="CommitCreate" xml:space="preserve">
+    <value>Create data</value>
+  </data>
+  <data name="CommitDelete" xml:space="preserve">
+    <value>Delete data</value>
+  </data>
+  <data name="CommitUpdate" xml:space="preserve">
+    <value>Update data</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="DateInfo" xml:space="preserve">
+    <value>Notation {0}</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>If you really want to to delete this data, please enter the security code.</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ErrorPageAdmin" xml:space="preserve">
+    <value>Please create a ticket for this error.&lt;br&gt;Bitte erstelle ein Ticket für diesen Fehler.</value>
+  </data>
+  <data name="ErrorPageError" xml:space="preserve">
+    <value>Error / Fehler</value>
+  </data>
+  <data name="ErrorPageUnknownError" xml:space="preserve">
+    <value>Unknown Error / Unbekannter Fehler</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Fix" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="FixToMember" xml:space="preserve">
+    <value>Repair (Member)</value>
+  </data>
+  <data name="FixToNonMember" xml:space="preserve">
+    <value>Repair (Non-member)</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Kick</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Langauge</value>
+  </data>
+  <data name="LanguagesAll" xml:space="preserve">
+    <value>All Languages</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="Letter" xml:space="preserve">
+    <value>Letter</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logoff" xml:space="preserve">
+    <value>Logoff</value>
+  </data>
+  <data name="Mailer" xml:space="preserve">
+    <value>Mailer</value>
+  </data>
+  <data name="MailNotReady" xml:space="preserve">
+    <value>Mail not ready.</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="MultiDateInfo" xml:space="preserve">
+    <value>One Date per row. Notation {0}</value>
+  </data>
+  <data name="NonMember" xml:space="preserve">
+    <value>Non-member</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>Not defined</value>
+  </data>
+  <data name="Ordering" xml:space="preserve">
+    <value>Ordering</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="PreferredNotificationMethod" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Prepare" xml:space="preserve">
+    <value>Prepare</value>
+  </data>
+  <data name="Reaccept" xml:space="preserve">
+    <value>Reaccept</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="SaftyCodeDest" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="SaftyCodeSource" xml:space="preserve">
+    <value>Security code</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SectionAll" xml:space="preserve">
+    <value>All persons</value>
+  </data>
+  <data name="SectionMembers" xml:space="preserve">
+    <value>Members in no section</value>
+  </data>
+  <data name="SectionPeople" xml:space="preserve">
+    <value>Non-members</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="SentDate" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="StateAbroad" xml:space="preserve">
+    <value>Abroad</value>
+  </data>
+  <data name="StateAll" xml:space="preserve">
+    <value>All Cantons</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Send test mail to me...</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextileSupportInfo" xml:space="preserve">
+    <value>The body of the mail supports textile formatting. It will be rendered in text and HTML format. Supported markup is {0}</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ToLanguages" xml:space="preserve">
+    <value>To languages</value>
+  </data>
+  <data name="ToNotificationMethods" xml:space="preserve">
+    <value>To notifications</value>
+  </data>
+  <data name="ToSections" xml:space="preserve">
+    <value>To sections</value>
+  </data>
+  <data name="ToStates" xml:space="preserve">
+    <value>To Cantons</value>
+  </data>
+  <data name="UnknownPerson" xml:space="preserve">
+    <value>Unknown person.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ListText" xml:space="preserve">
+    <value>Texts</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="ViewActionError" xml:space="preserve">
+    <value>The requested action is not kown.</value>
+  </data>
+  <data name="JoinRequestInfo" xml:space="preserve">
+    <value>This is a request to join the party. If you approve or reject the request, the person and its section, if any will be notified.</value>
+  </data>
+  <data name="LeaveRequestInfo" xml:space="preserve">
+    <value>This is a request to leave the party. If you approve or reject the request, the person and its section, if any will be notified.</value>
+  </data>
+  <data name="TransferRequestInfo" xml:space="preserve">
+    <value>This is a transfer to another section. If you approve or reject the request, the person and its former and new section, if any will be notified.</value>
+  </data>
+  <data name="CertificateNotFound" xml:space="preserve">
+    <value>Certificate not found.</value>
+  </data>
+  <data name="AllItems" xml:space="preserve">
+    <value>(all)</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HelpUrl" xml:space="preserve">
+    <value>https://projects.piratenpartei.ch/knowledgebase/articles/86</value>
+  </data>
+  <data name="HelpUrlSearch" xml:space="preserve">
+    <value>https://projects.piratenpartei.ch/knowledgebase/articles/86#Search</value>
+  </data>
+  <data name="SearchFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="SearchOutput" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="JoinRequestTitle" xml:space="preserve">
+    <value>Joining</value>
+  </data>
+  <data name="LeaveRequestTitle" xml:space="preserve">
+    <value>Leaving</value>
+  </data>
+  <data name="ListRequest" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="RequestView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="TransferRequestTitle" xml:space="preserve">
+    <value>Section transfer</value>
+  </data>
+  <data name="CommitNoOperation" xml:space="preserve">
+    <value>No operation to commit.</value>
+  </data>
+  <data name="CommitNoUpdate" xml:space="preserve">
+    <value>There is no update to commit.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="LoadTemplate" xml:space="preserve">
+    <value>Load template</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Save template</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+</root>

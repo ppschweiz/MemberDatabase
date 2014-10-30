@@ -1,0 +1,7 @@
+D:\Dev\spo\Organigram\Pirate.Util\bin\Debug\Pirate.Util.dll
+D:\Dev\spo\Organigram\Pirate.Util\bin\Debug\Pirate.Util.pdb
+D:\Dev\spo\Organigram\Pirate.Util\obj\x86\Debug\Pirate.Util.Properties.Resources.resources
+D:\Dev\spo\Organigram\Pirate.Util\obj\x86\Debug\Pirate.Util.csproj.GenerateResource.Cache
+D:\Dev\spo\Organigram\Pirate.Util\obj\x86\Debug\Pirate.Util.dll
+D:\Dev\spo\Organigram\Pirate.Util\obj\x86\Debug\Pirate.Util.pdb
+D:\Dev\spo\Organigram\Pirate.Util\obj\x86\Debug\Pirate.Util.csprojResolveAssemblyReference.cache

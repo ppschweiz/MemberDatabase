@@ -1,0 +1,17 @@
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Pirate.Ldap.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Pirate.Ldap.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Novell.Directory.Ldap.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Countries.txt
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\States.txt
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.LdapResources.resources
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Pirate.Util.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Pirate.Util.pdb
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.LdapResources.de-DE.resources
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\de-DE\Pirate.Ldap.resources.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\de-DE\Pirate.Ldap.resources.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.csprojResolveAssemblyReference.cache
+D:\Dev\spo\Organigram\Pirate.Ldap\obj\Debug\Pirate.Ldap.csproj.GenerateResource.Cache
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Devart.Data.dll
+D:\Dev\spo\Organigram\Pirate.Ldap\bin\Debug\Devart.Data.PostgreSql.dll

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept" xml:space="preserve">
+    <value>Aufnehmen</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Nachher</value>
+  </data>
+  <data name="AllMembers" xml:space="preserve">
+    <value>Alle Mitglieder</value>
+  </data>
+  <data name="Anomaies" xml:space="preserve">
+    <value>Anomalien</value>
+  </data>
+  <data name="Attachement" xml:space="preserve">
+    <value>Anhang</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Vorher</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="CertificateAccept" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="CertificateAcceptInfo" xml:space="preserve">
+    <value>Suchen und akzeptieren; Code:</value>
+  </data>
+  <data name="CertificateAdmin" xml:space="preserve">
+    <value>Zertifikatsverwaltung</value>
+  </data>
+  <data name="CertificateFind" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="CertificateRevoke" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="Commit" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="CommitCreate" xml:space="preserve">
+    <value>Daten erstellen</value>
+  </data>
+  <data name="CommitDelete" xml:space="preserve">
+    <value>Daten löschen</value>
+  </data>
+  <data name="CommitUpdate" xml:space="preserve">
+    <value>Daten ändern</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="DateInfo" xml:space="preserve">
+    <value>Notation {0}</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>Wenn du diese Daten wirklich löschen willst, so gib den Sicherheitscode ein.</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Englisch</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Fix" xml:space="preserve">
+    <value>Reparieren</value>
+  </data>
+  <data name="FixToMember" xml:space="preserve">
+    <value>Reparieren (Mitglied)</value>
+  </data>
+  <data name="FixToNonMember" xml:space="preserve">
+    <value>Reparieren (Nichtmitglied)</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Beitritt</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Ausschliessen</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LanguagesAll" xml:space="preserve">
+    <value>Alle Sprachen</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Austreten</value>
+  </data>
+  <data name="Letter" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logoff" xml:space="preserve">
+    <value>Ausloggen</value>
+  </data>
+  <data name="Mailer" xml:space="preserve">
+    <value>Mailer</value>
+  </data>
+  <data name="MailNotReady" xml:space="preserve">
+    <value>Mail nicht bereit.</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Updaten</value>
+  </data>
+  <data name="MultiDateInfo" xml:space="preserve">
+    <value>Ein Datum pro Zeile. Notation {0}</value>
+  </data>
+  <data name="NonMember" xml:space="preserve">
+    <value>Nichtmitglied</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>Nicht definiert</value>
+  </data>
+  <data name="Ordering" xml:space="preserve">
+    <value>Reihenfolge</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Prepare" xml:space="preserve">
+    <value>Vorbereiten</value>
+  </data>
+  <data name="Reaccept" xml:space="preserve">
+    <value>Wiederaufnehmen</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Grund</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="SaftyCodeDest" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="SaftyCodeSource" xml:space="preserve">
+    <value>Sicherheitscode</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="SectionAll" xml:space="preserve">
+    <value>Alle Personen</value>
+  </data>
+  <data name="SectionMembers" xml:space="preserve">
+    <value>Mitglieder ohne Sektion</value>
+  </data>
+  <data name="SectionPeople" xml:space="preserve">
+    <value>Nichtmitglieder</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Versenden</value>
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Absender</value>
+  </data>
+  <data name="SentDate" xml:space="preserve">
+    <value>Gesendet</value>
+  </data>
+  <data name="StateAbroad" xml:space="preserve">
+    <value>Ausland</value>
+  </data>
+  <data name="StateAll" xml:space="preserve">
+    <value>Alle Kantone</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testmail an mich senden...</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextileSupportInfo" xml:space="preserve">
+    <value>Der Body des Mails untersützt Textile-Formatierung. Es wird als Text und HTML gerendert. Unterstütztes Markup ist {0}</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ToLanguages" xml:space="preserve">
+    <value>An Sprachen</value>
+  </data>
+  <data name="ToNotificationMethods" xml:space="preserve">
+    <value>An Benachrichtigungen</value>
+  </data>
+  <data name="ToSections" xml:space="preserve">
+    <value>An Sektionen</value>
+  </data>
+  <data name="ToStates" xml:space="preserve">
+    <value>An Kantone</value>
+  </data>
+  <data name="UnknownPerson" xml:space="preserve">
+    <value>Unbekannte Person.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>Schreiben</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ListText" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variablen</value>
+  </data>
+  <data name="ViewActionError" xml:space="preserve">
+    <value>Der angefragte Antrag ist nicht bekannt.</value>
+  </data>
+  <data name="JoinRequestInfo" xml:space="preserve">
+    <value>Das ist ein Aufnahmeantrag. Wenn du ihn bestätigst oder zurückweist, wird die Person und, falls vorhanden, ihre Sektion benachrichtigt.</value>
+  </data>
+  <data name="LeaveRequestInfo" xml:space="preserve">
+    <value>Das ist ein Austrittsantrag. Wenn du ihn bestätigst oder zurückweist, wird die Person und, falls vorhanden, ihre Sektion benachrichtigt.</value>
+  </data>
+  <data name="TransferRequestInfo" xml:space="preserve">
+    <value>Das ist ein Antrag auf Sektionsübertitt Wenn du ihn bestätigst oder zurückweist, wird die Person und, falls vorhanden, ihre alte und neue Sektion benachrichtigt.</value>
+  </data>
+  <data name="CertificateNotFound" xml:space="preserve">
+    <value>Zertifikat nicht gefunden.</value>
+  </data>
+  <data name="AllItems" xml:space="preserve">
+    <value>(alle)</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="HelpUrl" xml:space="preserve">
+    <value>https://projects.piratenpartei.ch/knowledgebase/articles/85</value>
+  </data>
+  <data name="HelpUrlSearch" xml:space="preserve">
+    <value>https://projects.piratenpartei.ch/knowledgebase/articles/85#Suche</value>
+  </data>
+  <data name="SearchFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="SearchOutput" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="JoinRequestTitle" xml:space="preserve">
+    <value>Beitritt</value>
+  </data>
+  <data name="LeaveRequestTitle" xml:space="preserve">
+    <value>Austritt</value>
+  </data>
+  <data name="ListRequest" xml:space="preserve">
+    <value>Anfragen</value>
+  </data>
+  <data name="RequestView" xml:space="preserve">
+    <value>Zeigen</value>
+  </data>
+  <data name="TransferRequestTitle" xml:space="preserve">
+    <value>Sektionswechsel</value>
+  </data>
+  <data name="CommitNoOperation" xml:space="preserve">
+    <value>Keine Operation zu bestätigen.</value>
+  </data>
+  <data name="CommitNoUpdate" xml:space="preserve">
+    <value>Kein Update zu bestätigen.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="LoadTemplate" xml:space="preserve">
+    <value>Vorlage laden</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Vorlage speichern</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Vorlagen</value>
+  </data>
+</root>

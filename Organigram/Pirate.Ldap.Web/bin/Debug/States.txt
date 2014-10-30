@@ -1,0 +1,26 @@
+﻿Zurich;Zürich;Zurich;Zurigo	                                      ZH
+Bern;Bern;Berne;Berna                                             BE
+Lucerne;Luzern;Lucerne;Lucerna                                    LU
+Uri 	        	                                                  UR
+Schwyz 	      	                                                  SZ
+Obwalden;Obwalden;Obwald;Obvaldo                                  OW
+Nidwalden;Nidwalden;Nidwald;Nidvaldo                              NW
+Glarus;Glarus;Glaris;Glarus                                       GL
+Zug;Zug;Zug;Zugo                                                  ZG
+Fribourg;Freiburg;Fribourg;Friburgo 	                            FR
+Solothurn;Solothurn;Soleure;Soletta                               SO
+Basel-City;Basel-Stadt;Bâle-Ville;Basilea Città                   BS
+Basel-Country;Basel-Landschaft;Bâle-Campagne;Basilea Campagna     BL
+Schaffhausen;Schaffhausen;Schaffhausen;Sciaffusa                  SH
+Appenzell Ausserrhoden;Appenzell Ausserrhoden;Appenzell Rhodes-Extérieures;Appenzello Esterno 	AR
+Appenzell Innerrhoden;Appenzell Inner Rhodes;Appenzell Rhodes-Intérieures;Appenzello Interno   	AI
+St. Gallen;St. Gallen;Saint-Gall;San Gallo          	            SG
+Grisons;Graubünden;Grisons;Grigioni                 	            GR
+Aargau;Aargau;Argovie;Argovia                   	                AG
+Thurgau;Thurgau;Thurgovie;Thurgau                  	              TG
+Ticino;Tessin;Ticino;Ticino                     	                TI
+Vaud;Waadt;Vaud;Vaud                          	                  VD
+Valais;Wallis;Valais;Valais                     	                VS
+Neuchâtel;Neuenburg;Neuchâtel;Neuchâtel             	            NE
+Geneva;Genf;Genève;Ginevra                      	                GE
+Jura;Jura;Jura;Giura                          	                  JU

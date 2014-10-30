@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36796AA6-7011-4FCA-B085-9CC8A67BB21A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MemberAdmin</RootNamespace>
+    <AssemblyName>MemberAdmin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Novell.Directory.Ldap, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminMenu.ascx" />
+    <Content Include="Anomalies.aspx" />
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="Commit.aspx" />
+    <Content Include="AcceptCertificate.aspx" />
+    <Content Include="ListRequest.aspx" />
+    <Content Include="css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="css\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\images\ui-icons_888888_256x240.png" />
+    <Content Include="css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\jquery-ui-1.8.13.custom.css" />
+    <Content Include="js\jquery-1.6.1.min.js" />
+    <Content Include="js\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="js\ui.dropdownchecklist-1.4-min.js" />
+    <Content Include="robots.txt" />
+    <Content Include="ViewRequest.aspx" />
+    <Content Include="EditText.aspx" />
+    <Content Include="ListText.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="NoCertificate.aspx" />
+    <Content Include="ListCertificates.aspx" />
+    <Content Include="SpecialFunctions.aspx" />
+    <Content Include="DisplayMember.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GroupEdit.aspx" />
+    <Content Include="GroupList.aspx" />
+    <Content Include="Images\ppslogo.png" />
+    <Content Include="ListMember.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PrepareMail.aspx" />
+    <Content Include="SearchMember.aspx" />
+    <Content Include="SendMail.aspx" />
+    <Content Include="Style.css" />
+    <Content Include="Unauthorized.aspx" />
+    <Content Include="wave.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminMenu.ascx.cs">
+      <DependentUpon>AdminMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMenu.ascx.designer.cs">
+      <DependentUpon>AdminMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Anomalies.aspx.cs">
+      <DependentUpon>Anomalies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anomalies.aspx.designer.cs">
+      <DependentUpon>Anomalies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Commit.aspx.cs">
+      <DependentUpon>Commit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commit.aspx.designer.cs">
+      <DependentUpon>Commit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptCertificate.aspx.cs">
+      <DependentUpon>AcceptCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcceptCertificate.aspx.designer.cs">
+      <DependentUpon>AcceptCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListRequest.aspx.cs">
+      <DependentUpon>ListRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListRequest.aspx.designer.cs">
+      <DependentUpon>ListRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxExtensions.cs" />
+    <Compile Include="PostFilter.cs" />
+    <Compile Include="SearchMemberTemplate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchParameters.cs" />
+    <Compile Include="ViewRequest.aspx.cs">
+      <DependentUpon>ViewRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewRequest.aspx.designer.cs">
+      <DependentUpon>ViewRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditText.aspx.cs">
+      <DependentUpon>EditText.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditText.aspx.designer.cs">
+      <DependentUpon>EditText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListText.aspx.cs">
+      <DependentUpon>ListText.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListText.aspx.designer.cs">
+      <DependentUpon>ListText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoCertificate.aspx.cs">
+      <DependentUpon>NoCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoCertificate.aspx.designer.cs">
+      <DependentUpon>NoCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListCertificates.aspx.cs">
+      <DependentUpon>ListCertificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListCertificates.aspx.designer.cs">
+      <DependentUpon>ListCertificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialFunctions.aspx.cs">
+      <DependentUpon>SpecialFunctions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpecialFunctions.aspx.designer.cs">
+      <DependentUpon>SpecialFunctions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OutputPiVoteXml.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NextIdService.cs" />
+    <Compile Include="SectionExtensions.cs" />
+    <Compile Include="OutputMemberPhoto.cs" />
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationMethod.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GroupEdit.aspx.cs">
+      <DependentUpon>GroupEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupEdit.aspx.designer.cs">
+      <DependentUpon>GroupEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GroupList.aspx.cs">
+      <DependentUpon>GroupList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupList.aspx.designer.cs">
+      <DependentUpon>GroupList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayMember.aspx.cs">
+      <DependentUpon>DisplayMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayMember.aspx.designer.cs">
+      <DependentUpon>DisplayMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListMember.aspx.cs">
+      <DependentUpon>ListMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListMember.aspx.designer.cs">
+      <DependentUpon>ListMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiTextBox.cs" />
+    <Compile Include="OrderingControl.cs" />
+    <Compile Include="OutputMemberList.cs" />
+    <Compile Include="PrepareMail.aspx.cs">
+      <DependentUpon>PrepareMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrepareMail.aspx.designer.cs">
+      <DependentUpon>PrepareMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuotedPrintableConverter.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMember.aspx.cs">
+      <DependentUpon>SearchMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchMember.aspx.designer.cs">
+      <DependentUpon>SearchMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendMail.aspx.cs">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendMail.aspx.designer.cs">
+      <DependentUpon>SendMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TableExtensions.cs" />
+    <Compile Include="Unauthorized.aspx.cs">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unauthorized.aspx.designer.cs">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pirate.Ldap.Web\Pirate.Ldap.Web.csproj">
+      <Project>{9BA65EBC-ED60-4554-963A-B80073F72B93}</Project>
+      <Name>Pirate.Ldap.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Ldap\Pirate.Ldap.csproj">
+      <Project>{C7A3E83A-5B08-4D85-B933-00A30189AF97}</Project>
+      <Name>Pirate.Ldap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Openssl\Pirate.Openssl.csproj">
+      <Project>{148CB989-8047-4493-B550-482439AF66DA}</Project>
+      <Name>Pirate.Openssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Textile\Pirate.Textile.csproj">
+      <Project>{BF6F1B4D-1C47-4D80-9E8F-27DABE2AD963}</Project>
+      <Name>Pirate.Textile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Util\Pirate.Util.csproj">
+      <Project>{9E99130B-296C-4F0B-A9E1-6E98FF416F10}</Project>
+      <Name>Pirate.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

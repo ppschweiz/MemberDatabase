@@ -1,0 +1,14 @@
+D:\Dev\spo\Organigram\Organigram\bin\Release\Organigram.exe.config
+D:\Dev\spo\Organigram\Organigram\bin\Release\template.html
+D:\Dev\spo\Organigram\Organigram\bin\Release\ldap.cfg
+D:\Dev\spo\Organigram\Organigram\bin\Release\org\nophoto.png
+D:\Dev\spo\Organigram\Organigram\bin\Release\org\vacant.png
+D:\Dev\spo\Organigram\Organigram\bin\Release\Organigram.exe
+D:\Dev\spo\Organigram\Organigram\bin\Release\Organigram.pdb
+D:\Dev\spo\Organigram\Organigram\bin\Release\Novell.Directory.Ldap.dll
+D:\Dev\spo\Organigram\Organigram\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Dev\spo\Organigram\Organigram\obj\x86\Release\Organigram.exe
+D:\Dev\spo\Organigram\Organigram\obj\x86\Release\Organigram.pdb
+D:\Dev\spo\Organigram\Organigram\bin\Release\cssbased.html
+D:\Dev\spo\Organigram\Organigram\bin\Release\Country.txt
+D:\Dev\spo\Organigram\Organigram\bin\Release\State.txt

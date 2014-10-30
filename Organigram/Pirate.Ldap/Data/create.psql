@@ -1,0 +1,171 @@
+﻿-- Database: memberservice
+
+-- DROP DATABASE memberservice;
+
+CREATE DATABASE memberservice
+  WITH OWNER = memberservice
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'en_US.UTF-8'
+       LC_CTYPE = 'en_US.UTF-8'
+       CONNECTION LIMIT = -1;
+
+-- Sequence: passwordreset_id_seq
+
+-- DROP SEQUENCE passwordreset_id_seq;
+
+CREATE SEQUENCE passwordreset_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 17
+  CACHE 1;
+ALTER TABLE passwordreset_id_seq
+  OWNER TO memberservice;
+
+-- Sequence: request_id_seq
+
+-- DROP SEQUENCE request_id_seq;
+
+CREATE SEQUENCE request_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 159
+  CACHE 1;
+ALTER TABLE request_id_seq
+  OWNER TO memberservice;
+
+-- Sequence: template_id_seq
+
+-- DROP SEQUENCE template_id_seq;
+
+CREATE SEQUENCE template_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 1
+  CACHE 1;
+ALTER TABLE template_id_seq
+  OWNER TO memberservice;
+
+-- Table: certificateentry
+
+-- DROP TABLE certificateentry;
+
+CREATE TABLE certificateentry
+(
+  key bigint NOT NULL,
+  fingerprint character varying(128),
+  authorizationlevel integer,
+  useruniqueidentifier integer,
+  comment character varying(1024),
+  certificatedata character varying(8192),
+  CONSTRAINT key_id PRIMARY KEY (key),
+  CONSTRAINT fingerprint_unique UNIQUE (fingerprint)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE certificateentry
+  OWNER TO memberservice;
+
+-- Index: useruniqueidentifier_index
+
+-- DROP INDEX useruniqueidentifier_index;
+
+CREATE INDEX useruniqueidentifier_index
+  ON certificateentry
+  USING btree
+  (useruniqueidentifier);
+
+-- Table: emailaddresschange
+
+-- DROP TABLE emailaddresschange;
+
+CREATE TABLE emailaddresschange
+(
+  id character varying(64) NOT NULL,
+  username character varying(256) NOT NULL,
+  removeaddress character varying(256),
+  addaddress character varying(256),
+  created timestamp without time zone NOT NULL,
+  CONSTRAINT "Id" PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE emailaddresschange
+  OWNER TO memberservice;
+
+-- Table: passwordreset
+
+-- DROP TABLE passwordreset;
+
+CREATE TABLE passwordreset
+(
+  id serial NOT NULL,
+  dn character varying(255) NOT NULL,
+  timeout timestamp(6) without time zone NOT NULL,
+  code character varying(64) NOT NULL,
+  CONSTRAINT keyid PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE passwordreset
+  OWNER TO memberservice;
+
+-- Table: request
+
+-- DROP TABLE request;
+
+CREATE TABLE request
+(
+  id serial NOT NULL,
+  action integer NOT NULL,
+  olddn character varying(255) NOT NULL,
+  newdn character varying(255),
+  parameter character varying(255),
+  text character varying(4096),
+  requested date NOT NULL,
+  CONSTRAINT id PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE request
+  OWNER TO memberservice;
+
+-- Table: searchtemplates
+
+-- DROP TABLE searchtemplates;
+
+CREATE TABLE searchtemplates
+(
+  id integer NOT NULL DEFAULT nextval('template_id_seq'::regclass),
+  name character varying(1024),
+  definition character varying(65536),
+  CONSTRAINT templateid PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE searchtemplates
+  OWNER TO memberservice;
+
+-- Table: text
+
+-- DROP TABLE text;
+
+CREATE TABLE text
+(
+  id character varying(64) NOT NULL,
+  text character varying(16384) NOT NULL,
+  CONSTRAINT pid PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE text
+  OWNER TO memberservice;

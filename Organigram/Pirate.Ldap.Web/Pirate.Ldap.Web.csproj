@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BA65EBC-ED60-4554-963A-B80073F72B93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pirate.Ldap.Web</RootNamespace>
+    <AssemblyName>Pirate.Ldap.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Novell.Directory.Ldap">
+      <HintPath>..\MemberAdmin\bin\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicGlobal.cs" />
+    <Compile Include="CredentionalObject.cs" />
+    <Compile Include="GeneralHttpHandler.cs" />
+    <Compile Include="DataGlobal.cs" />
+    <Compile Include="GeneralPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info.cs" />
+    <Compile Include="Ldap.cs" />
+    <Compile Include="Mailer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateLimitEntry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pirate.Ldap\Pirate.Ldap.csproj">
+      <Project>{C7A3E83A-5B08-4D85-B933-00A30189AF97}</Project>
+      <Name>Pirate.Ldap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Openssl\Pirate.Openssl.csproj">
+      <Project>{148CB989-8047-4493-B550-482439AF66DA}</Project>
+      <Name>Pirate.Openssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Textile\Pirate.Textile.csproj">
+      <Project>{BF6F1B4D-1C47-4D80-9E8F-27DABE2AD963}</Project>
+      <Name>Pirate.Textile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Util\Pirate.Util.csproj">
+      <Project>{9E99130B-296C-4F0B-A9E1-6E98FF416F10}</Project>
+      <Name>Pirate.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pirate.Web\Pirate.Web.csproj">
+      <Project>{89913808-D036-497C-80D2-1DD749FD3048}</Project>
+      <Name>Pirate.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

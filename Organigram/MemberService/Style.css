@@ -1,0 +1,27 @@
+﻿body 
+{
+  background-color: #EEB50C;
+  font-family: sans-serif;
+  background-image:url('wave.jpg');
+  background-repeat:no-repeat;
+}
+
+A:link
+{
+  color: Black;
+}
+
+A:visited
+{
+  color: Black;
+}
+
+A:active
+{
+  color: Black;
+}
+
+A:hover
+{
+  color: Black;
+}

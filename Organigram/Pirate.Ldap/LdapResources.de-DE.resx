@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlternateMail" xml:space="preserve">
+    <value>Alternative Email</value>
+  </data>
+  <data name="ArticleModifier" xml:space="preserve">
+    <value>Geändert von</value>
+  </data>
+  <data name="ArticleModifyTime" xml:space="preserve">
+    <value>Geändert um</value>
+  </data>
+  <data name="Attachement" xml:space="preserve">
+    <value>Anhang</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribut</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="BCC" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Vorher</value>
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Geburtstag</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="CertificateComment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="CertificateFingerprint" xml:space="preserve">
+    <value>Fingerprint</value>
+  </data>
+  <data name="CertificateLevel" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="CertificateLevel0" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="CertificateLevel1" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="CertificateLevel2" xml:space="preserve">
+    <value>Ja, Admin</value>
+  </data>
+  <data name="CertificateLevel3" xml:space="preserve">
+    <value>Ja, Superadmin</value>
+  </data>
+  <data name="CertificateLevel4" xml:space="preserve">
+    <value>Ja, BCNF</value>
+  </data>
+  <data name="CertificateValidFrom" xml:space="preserve">
+    <value>Gültig von</value>
+  </data>
+  <data name="CertificateValidUntil" xml:space="preserve">
+    <value>Gültig bis</value>
+  </data>
+  <data name="CommonName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ContributeClassNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ContributeClassReduced" xml:space="preserve">
+    <value>Reduziert</value>
+  </data>
+  <data name="ContributeClassUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="ContributionClass" xml:space="preserve">
+    <value>Beitrag</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Daten</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DN" xml:space="preserve">
+    <value>DN</value>
+  </data>
+  <data name="DomainComponent" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmployeeNumber" xml:space="preserve">
+    <value>Mitgliedsnummer</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Mitgliedstyp</value>
+  </data>
+  <data name="EmployeeTypeFleet" xml:space="preserve">
+    <value>Mitgliedsorganisation</value>
+  </data>
+  <data name="EmployeeTypeLandLubber" xml:space="preserve">
+    <value>Nichtmitglied</value>
+  </data>
+  <data name="EmployeeTypePirate" xml:space="preserve">
+    <value>Pirat</value>
+  </data>
+  <data name="EmployeeTypeSympathizer" xml:space="preserve">
+    <value>Sympathisant</value>
+  </data>
+  <data name="EmployeeTypeUnknown" xml:space="preserve">
+    <value>Unbekannter Status</value>
+  </data>
+  <data name="EmployeeTypeVeteran" xml:space="preserve">
+    <value>Ausgetretenes Mitglied</value>
+  </data>
+  <data name="EmployeeTypeWalkedThePlank" xml:space="preserve">
+    <value>Ausgeschlossen Mitglied</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Englisch</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Französisch</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="GenderFemale" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="GenderMale" xml:space="preserve">
+    <value>Männlich</value>
+  </data>
+  <data name="GenderNotApplication" xml:space="preserve">
+    <value>Nicht anwendbar</value>
+  </data>
+  <data name="GenderUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="Givenname" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Italien" xml:space="preserve">
+    <value>Italienisch</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>Beitritt</value>
+  </data>
+  <data name="Joining" xml:space="preserve">
+    <value>Beitritt</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Ausschliessen</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LanguagesAll" xml:space="preserve">
+    <value>Alle Sprachen</value>
+  </data>
+  <data name="LanguageUnspecified" xml:space="preserve">
+    <value>Nicht spezifiziert</value>
+  </data>
+  <data name="LastNewsLetter" xml:space="preserve">
+    <value>Letzer Newsletter</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Austreten</value>
+  </data>
+  <data name="Leaving" xml:space="preserve">
+    <value>Austritt</value>
+  </data>
+  <data name="Letter" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ort</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logoff" xml:space="preserve">
+    <value>Ausloggen</value>
+  </data>
+  <data name="Mailer" xml:space="preserve">
+    <value>Mailer</value>
+  </data>
+  <data name="MailNotReady" xml:space="preserve">
+    <value>Mail nicht bereit.</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobiltelefon</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Updaten</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="NewsletterInLanguage" xml:space="preserve">
+    <value>In </value>
+  </data>
+  <data name="NewsletterSalutation" xml:space="preserve">
+    <value>Ahoi </value>
+  </data>
+  <data name="NewsletterSelect" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="NewsletterSelectBallotVoting" xml:space="preserve">
+    <value>Urabstimmung</value>
+  </data>
+  <data name="NewsletterSelectCampaignAction" xml:space="preserve">
+    <value>Wahlkampf</value>
+  </data>
+  <data name="NewsletterSelectCulturalPolicy" xml:space="preserve">
+    <value>Kulturpolitik</value>
+  </data>
+  <data name="NewsletterSelectDigitalPolicy" xml:space="preserve">
+    <value>Digitialpolitik</value>
+  </data>
+  <data name="NewsletterSelectEconomyPolicy" xml:space="preserve">
+    <value>Wirtschaftspolitik</value>
+  </data>
+  <data name="NewsletterSelectEducationalPolicy" xml:space="preserve">
+    <value>Bildungspolitik</value>
+  </data>
+  <data name="NewsletterSelectEnergyPolicy" xml:space="preserve">
+    <value>Energiepolitik</value>
+  </data>
+  <data name="NewsletterSelectEnvironmentPolicy" xml:space="preserve">
+    <value>Umweltpolitik</value>
+  </data>
+  <data name="NewsletterSelectForeignPolicy" xml:space="preserve">
+    <value>Aussenpolitik</value>
+  </data>
+  <data name="NewsletterSelectHealthPolicy" xml:space="preserve">
+    <value>Gesundheitspolitik</value>
+  </data>
+  <data name="NewsletterSelectInvalid" xml:space="preserve">
+    <value>Ungültig</value>
+  </data>
+  <data name="NewsletterSelectJobOffers" xml:space="preserve">
+    <value>Arbeitsangebote</value>
+  </data>
+  <data name="NewsletterSelectPirateAssembly" xml:space="preserve">
+    <value>Piratenversammlung</value>
+  </data>
+  <data name="NewsletterSelectPopularVoteAction" xml:space="preserve">
+    <value>Abstimmungskampf</value>
+  </data>
+  <data name="NewsletterSelectReports" xml:space="preserve">
+    <value>Berichte</value>
+  </data>
+  <data name="NewsletterSelectSectionFounding" xml:space="preserve">
+    <value>Sektionsgründungen</value>
+  </data>
+  <data name="NewsletterSelectSecurityPolicy" xml:space="preserve">
+    <value>Sicherheitspolitik</value>
+  </data>
+  <data name="NewsletterSelectSocialPolicy" xml:space="preserve">
+    <value>Sozialpolitik</value>
+  </data>
+  <data name="NewsletterSelectStatePolicy" xml:space="preserve">
+    <value>Staatspolitik</value>
+  </data>
+  <data name="NewsletterSelectTransportPolicy" xml:space="preserve">
+    <value>Verkehrspolitik</value>
+  </data>
+  <data name="NewsletterSenderEmail" xml:space="preserve">
+    <value>info@piratenpartei.ch</value>
+  </data>
+  <data name="NewsletterSenderName" xml:space="preserve">
+    <value>Piratenpartei Schweiz</value>
+  </data>
+  <data name="NewsletterSignature" xml:space="preserve">
+    <value>Piratige Grüsse</value>
+  </data>
+  <data name="NewsletterSubject" xml:space="preserve">
+    <value>Newsletter {0}-{1}</value>
+  </data>
+  <data name="NonMember" xml:space="preserve">
+    <value>Nichtmitglied</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>Nicht definiert</value>
+  </data>
+  <data name="ObjectClass" xml:space="preserve">
+    <value>ObjectClass</value>
+  </data>
+  <data name="Occupant" xml:space="preserve">
+    <value>Amtsinhaber</value>
+  </data>
+  <data name="Ordering" xml:space="preserve">
+    <value>Reihenfolge</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="PiVoteGroupId" xml:space="preserve">
+    <value>Pi-Vote Group Id</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>PLZ</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="PreferredNotificationMethod" xml:space="preserve">
+    <value>Benachrichtigung</value>
+  </data>
+  <data name="PreferrredNotificationMethodEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="PreferrredNotificationMethodLetter" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="PreferrredNotificationMethodUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="Prepare" xml:space="preserve">
+    <value>Vorbereiten</value>
+  </data>
+  <data name="Reaccept" xml:space="preserve">
+    <value>Wiederaufnehmen</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Grund</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="SaftyCodeDest" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="SaftyCodeSource" xml:space="preserve">
+    <value>Sicherheitscode</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Sektion</value>
+  </data>
+  <data name="SectionAll" xml:space="preserve">
+    <value>Alle Personen</value>
+  </data>
+  <data name="SectionMembers" xml:space="preserve">
+    <value>Mitglieder ohne Sektion</value>
+  </data>
+  <data name="SectionPeople" xml:space="preserve">
+    <value>Nichtmitglieder</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Versenden</value>
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Absender</value>
+  </data>
+  <data name="SentDate" xml:space="preserve">
+    <value>Gesendet</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Kanton</value>
+  </data>
+  <data name="StateAbroad" xml:space="preserve">
+    <value>Ausland</value>
+  </data>
+  <data name="StateAll" xml:space="preserve">
+    <value>Alle Kantone</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Strasse</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testmail an mich senden...</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="UidNumber" xml:space="preserve">
+    <value>UidNumber</value>
+  </data>
+  <data name="UniqueIdentifier" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="UnknownPerson" xml:space="preserve">
+    <value>Unbekannte Person.</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="VotingRightUntil" xml:space="preserve">
+    <value>Stimmrecht bis</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>Schreiben</value>
+  </data>
+</root>
