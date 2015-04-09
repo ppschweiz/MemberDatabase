@@ -16,7 +16,6 @@ namespace RegistrationService
 {
   public static class Ldap
   {
-    private const string ServerName = "localhost";
     private const string KeyObjectName = "credentialKey";
     private const string CredentialsObjectName = "ldapcredentials";
 
@@ -26,7 +25,7 @@ namespace RegistrationService
       {
         var config = new Config();
         var connection = new LdapConnection();
-        connection.Connect(ServerName, 389);
+        connection.Connect(config.LdapServer, 389);
         connection.Bind(config.MdbguiDn, config.MdbguiPassword);
 
         BasicGlobal.Logger.Log(LogLevel.Debug, "Ldap connected.");

@@ -13,5 +13,3 @@ D:\Dev\spo\Organigram\Pirate.Ldap.Updater\bin\Debug\de-DE\Pirate.Ldap.resources.
 D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.csprojResolveAssemblyReference.cache
 D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.exe
 D:\Dev\spo\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.pdb
-D:\Dev\MemberDatabase\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.exe
-D:\Dev\MemberDatabase\Organigram\Pirate.Ldap.Updater\obj\x86\Debug\Pirate.Ldap.Updater.pdb

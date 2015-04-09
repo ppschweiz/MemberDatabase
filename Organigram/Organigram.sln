@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationService", "Regi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirate.Ldap.Web", "Pirate.Ldap.Web\Pirate.Ldap.Web.csproj", "{9BA65EBC-ED60-4554-963A-B80073F72B93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceControl", "ServiceControl\ServiceControl.csproj", "{32E5AEFA-B6DA-474E-98E5-686C9D31B884}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirate.Ldap.Updater", "Pirate.Ldap.Updater\Pirate.Ldap.Updater.csproj", "{D485B64A-ACAF-4F0A-840D-AD1ECA650458}"
 EndProject
 Global
@@ -133,6 +135,16 @@ Global
 		{9BA65EBC-ED60-4554-963A-B80073F72B93}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{9BA65EBC-ED60-4554-963A-B80073F72B93}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9BA65EBC-ED60-4554-963A-B80073F72B93}.Release|x86.ActiveCfg = Release|Any CPU
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Debug|x86.ActiveCfg = Debug|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Debug|x86.Build.0 = Debug|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Release|Any CPU.ActiveCfg = Release|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Release|Mixed Platforms.Build.0 = Release|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Release|x86.ActiveCfg = Release|x86
+		{32E5AEFA-B6DA-474E-98E5-686C9D31B884}.Release|x86.Build.0 = Release|x86
 		{D485B64A-ACAF-4F0A-840D-AD1ECA650458}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{D485B64A-ACAF-4F0A-840D-AD1ECA650458}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{D485B64A-ACAF-4F0A-840D-AD1ECA650458}.Debug|Mixed Platforms.Build.0 = Debug|x86

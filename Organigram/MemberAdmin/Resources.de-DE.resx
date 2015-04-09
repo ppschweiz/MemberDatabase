@@ -432,4 +432,7 @@
   <data name="Templates" xml:space="preserve">
     <value>Vorlagen</value>
   </data>
+  <data name="RealDelete" xml:space="preserve">
+    <value>Richtig Löschen</value>
+  </data>
 </root>

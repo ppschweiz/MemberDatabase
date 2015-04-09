@@ -257,11 +257,20 @@ namespace MemberAdmin
 
         if (UpdateState.Operation == UpdateOperation.Update)
         {
-          var deleteButton = new Button();
-          deleteButton.Width = new Unit(80d, UnitType.Point);
-          deleteButton.Text = Resources.Delete;
-          deleteButton.Click += new EventHandler(DeleteButton_Click);
-          editButtonPanel.Controls.Add(deleteButton);
+          var removeDataButton = new Button();
+          removeDataButton.Width = new Unit(80d, UnitType.Point);
+          removeDataButton.Text = Resources.Delete;
+          removeDataButton.Click += new EventHandler(removeDataButton_Click);
+          editButtonPanel.Controls.Add(removeDataButton);
+
+          if (CurrentUserAuthorizationLevel >= 3)
+          {
+            var deleteButton = new Button();
+            deleteButton.Width = new Unit(80d, UnitType.Point);
+            deleteButton.Text = Resources.RealDelete;
+            deleteButton.Click += new EventHandler(DeleteButton_Click);
+            editButtonPanel.Controls.Add(deleteButton);
+          }
         }
 
         table.AddRow(string.Empty, editButtonPanel);
@@ -272,6 +281,54 @@ namespace MemberAdmin
       }
 
       this.panel.Controls.Add(table);
+    }
+
+    private void removeDataButton_Click(object sender, EventArgs e)
+    {
+      if (!SetupLdap())
+      {
+        RedirectLogin();
+        return;
+      }
+
+      ExecuteHandlingError(
+        "DisplayMember.Modify",
+        () =>
+        {
+          _currentPerson.MoveToPeople();
+
+          if (_currentPerson.IsMemberType)
+          {
+            _currentPerson.Leaving.Add(DateTime.Now);
+            _currentPerson.EmployeeType = EmployeeType.Veteran;
+          }
+          else
+          {
+            _currentPerson.EmployeeType = EmployeeType.LandLubber;
+          }
+
+          _currentPerson.Name = string.Empty;
+          _currentPerson.Givenname = string.Empty;
+          _currentPerson.Surname = string.Empty;
+          _currentPerson.Street = string.Empty;
+          _currentPerson.PostalCode = string.Empty;
+          _currentPerson.Location = string.Empty;
+          _currentPerson.State = string.Empty;
+          _currentPerson.Country = string.Empty;
+          _currentPerson.Emails.Clear();
+          _currentPerson.AlternateEmails.Clear();
+          _currentPerson.Phone = string.Empty;
+          _currentPerson.Mobile = string.Empty;
+          _currentPerson.Info = string.Empty;
+          _currentPerson.Description = string.Empty;
+          _currentPerson.Gender = Gender.Unknown;
+          _currentPerson.Photo = null;
+          _currentPerson.PreferredLanguage = string.Empty;
+          _currentPerson.PreferredNotificationMethod = PreferredNotificationMethod.Unknown;
+          _currentPerson.VotingRightUntil = new DateTime(1970, 1, 1);
+
+          RedirectCommit();
+        });
     }
 
     private void FixToNonMemberButton_Click(object sender, EventArgs e)

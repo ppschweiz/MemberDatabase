@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Novell.Directory.Ldap, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Novell.Directory.Ldap, Version=2.2.1.0, Culture=neutral">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Resources\Novell.Directory.Ldap.dll</HintPath>
     </Reference>

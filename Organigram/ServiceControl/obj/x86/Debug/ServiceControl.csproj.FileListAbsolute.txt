@@ -1,0 +1,6 @@
+D:\Dev\spo\Organigram\ServiceControl\bin\Debug\ServiceControl.exe
+D:\Dev\spo\Organigram\ServiceControl\bin\Debug\ServiceControl.pdb
+D:\Dev\spo\Organigram\ServiceControl\obj\x86\Debug\ServiceControl.exe
+D:\Dev\spo\Organigram\ServiceControl\obj\x86\Debug\ServiceControl.pdb
+D:\Dev\spo\Organigram\ServiceControl\bin\Debug\ServiceControl.exe.config
+D:\Dev\spo\Organigram\ServiceControl\obj\x86\Debug\ServiceControl.csprojResolveAssemblyReference.cache
